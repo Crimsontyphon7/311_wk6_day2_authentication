@@ -1,25 +1,31 @@
 {
-  "name": "311_wk2_day2_express-continued",
+  "name": "311_wk6_day2_authentication",
   "version": "1.0.0",
-  "description": "",
+  "description": "PLEASE NOTE THAT PRIOR TO THIS ASSIGNMENT, YOU NEED TO HAVE FINISHED THE SECTION TITLED \"Authentication with Auth0\" IN THE PRE-HOMEWORK",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradLFowler/311_wk6_day2_authentication.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/BradLFowler/311_wk6_day2_authentication/issues"
+  },
+  "homepage": "https://github.com/BradLFowler/311_wk6_day2_authentication#readme",
   "dependencies": {
-    "axios": "^0.19.0",
-    "bcrypt": "^3.0.6",
-    "body-parser": "^1.17.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.14.0",
-    "express-jwt": "^5.3.1",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.0",
     "jsonwebtoken": "^8.5.1",
-    "jwks-rsa": "^1.6.0",
-    "mysql": "^2.17.1",
-    "nodemon": "^1.18.11"
+    "jwks-rsa": "^2.1.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16"
   }
 }
